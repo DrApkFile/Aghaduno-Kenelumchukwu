@@ -5,6 +5,14 @@ import { ExternalLink, Github, Folder } from "lucide-react";
 
 const projects = [
   {
+    title: "Jackpot",
+    description: "A dynamic multiplayer variation of the popular Nigerian card game 'Whot'. Features real-time matching and teammate collaboration for an engaging competitive experience.",
+    tech: ["Next.js", "Firebase", "Realtime DB", "Tailwind CSS"],
+    github: "https://github.com/DrApkFile/Jackpot",
+    link: "https://whot-jackpot.vercel.app/",
+    image: "https://images.unsplash.com/photo-1553481187-be93c21490a9?q=80&w=2000&auto=format&fit=crop",
+  },
+  {
     title: "Node-Shift",
     description: "An educational platform that onboards traditional Web2 backend developers into Solana. It maps 12 essential backend patterns to Anchor with live UI integration tests for a seamless transition.",
     tech: ["Anchor", "Solana", "Next.js", "TypeScript", "Integration Testing"],

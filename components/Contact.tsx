@@ -42,14 +42,18 @@ export default function Contact() {
             <Github size={24} />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/dr-apkfile-431b0b352/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-4 rounded-full border border-white/10 bg-white/5 hover:bg-blue-600/10 hover:text-blue-600 transition-all"
             aria-label="LinkedIn"
           >
             <Linkedin size={24} />
           </a>
           <a
-            href="#"
+            href="https://x.com/LazyGenius_1st"
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-4 rounded-full border border-white/10 bg-white/5 hover:bg-sky-500/10 hover:text-sky-500 transition-all"
             aria-label="Twitter"
           >
