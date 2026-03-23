@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Aghaduno Kenelumchukwu | Full Stack Developer",
   description: "Portfolio of Aghaduno Kenelumchukwu (@DrApkFile), a Full Stack Developer specializing in modern web technologies.",
+  icons: {
+    icon: "/profpic/Gemini_Generated_Image_ae592lae592lae59.png",
+    apple: "/profpic/Gemini_Generated_Image_ae592lae592lae59.png",
+  },
 };
 
 export default function RootLayout({

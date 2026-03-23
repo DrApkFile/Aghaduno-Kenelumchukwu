@@ -31,12 +31,21 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center">
             <a
               href="#"
-              className="text-xl font-bold tracking-tighter hover:opacity-70 transition-opacity"
+              className="flex items-center gap-3 hover:opacity-80 transition-opacity"
             >
-              DRAPKFILE
+              <div className="w-10 h-10 rounded-full overflow-hidden border border-white/20">
+                <img 
+                  src="/profpic/Gemini_Generated_Image_ae592lae592lae59.png" 
+                  alt="Aghaduno Kenelumchukwu" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <span className="text-xl font-bold tracking-tighter">
+                DRAPKFILE
+              </span>
             </a>
           </div>
 
